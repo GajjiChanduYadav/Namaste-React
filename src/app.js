@@ -10,6 +10,7 @@ import RestaurantMenu from './components/RestaurantMenu';
 import { Provider } from 'react-redux';
 import appStore from './utils/appStore';
 import Cart from './components/Cart';
+import Footer from './components/Footer';
 /* My Food App structure will look like this, 
             1) Header
                 - Logo
@@ -35,6 +36,7 @@ const AppLayout = ()=> {
      <div className='app'>
          <Header/>
          <Outlet/>
+         <Footer/>
      </div>
    </Provider>
    
